@@ -3,6 +3,7 @@ import logo from "../../assets/logo.svg";
 import { FaCheck } from "react-icons/fa6";
 import { CiClock2 } from "react-icons/ci";
 import { MdEmail } from "react-icons/md";
+import Button from "../button";
 
 const CenterHeader = () => {
   return (
@@ -49,7 +50,7 @@ const CenterHeader = () => {
             <a href="mailto: youremail@mailbox.ru" className="hidden sm:flex text-[13px] flex items-center gap-[5px]">
               <MdEmail className="text-primary-orange" /> youremail@mailbox.ru
             </a>
-            <button className="text-[14px] sm:text-[16px] bg-dark-orange py-[10px] px-[25px] text-white rounded-[6px] cursor-pointer hover:opacity-90">Заказать звонок</button>
+            <Button name='Заказать звонок' />
           </div>
         </div>
       </div>
