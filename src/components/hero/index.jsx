@@ -32,7 +32,7 @@ const Hero = () => {
     },
   ];
   return (
-    <div className="max-w-[1320px] mx-auto mt-[3px] pb-[120px]">
+    <div className="max-w-[1320px] mx-auto mt-[3px] pb-[40px]">
       <div className="relative">
         <img src={heroImg} alt="heroImg" className="hidden md:block" />
         <div className="block bg-[#6E9425] md:hidden h-[300px] flex items-center px-[40px]">

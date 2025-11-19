@@ -4,7 +4,7 @@ import Button from '../button';
 
 const FooterTop = () => {
     return (
-        <div className='flex items-center justify-center md:justify-between py-[20px] mt-[50px] lg:mt-0'>
+        <div className='flex items-center justify-center md:justify-between py-[20px]'>
             <div className='flex items-center gap-[60px]'>
                 <img src={logo} alt="logo" />
                 <div className='hidden lg:block'>
