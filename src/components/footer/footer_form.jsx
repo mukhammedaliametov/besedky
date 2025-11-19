@@ -3,7 +3,7 @@ import Button from "../button";
 
 const FooterForm = () => {
   return (
-    <div className="bg-primary-white h-full py-[20px] lg:py-0 lg:h-[120px] flex items-center">
+    <div className="bg-primary-white h-full py-[20px] lg:py-0 lg:h-[120px] flex items-center mt-[30px]">
       <div className="max-w-[1320px] mx-auto px-[16px] xl:px-0 flex flex-col lg:flex-row items-center justify-between w-full">
         <p className="text-[19px] font-semibold text-center md:text-left">
           Хотите быть в курсе выгодных предложений, акций и новинок?
