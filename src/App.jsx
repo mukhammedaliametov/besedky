@@ -6,6 +6,7 @@ import Category from './components/category';
 import Bestseller from './components/bestseller';
 import Promotional from './components/promotional';
 import News from './components/news';
+import About from './components/about';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Category />
     <Bestseller />
     <Promotional />
+    <About />
     <News />
     <Footer />
     </>

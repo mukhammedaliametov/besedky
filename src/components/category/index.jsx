@@ -34,7 +34,7 @@ const Category = () => {
           </div>
           <img src={category2} alt="" />
         </div>
-        <div className="row-span-3 flex flex-col justify-between gap-[20px]">
+        <div className="hidden md:flex row-span-3 flex-col justify-between gap-[20px]">
           <div className="flex items-start justify-between bg-[#FFF7D9] p-[20px] rounded-[6px] h-full">
             <div className="flex flex-col gap-[6px]">
               <h3 className="text-[19px] font-[600]">Детские площадки</h3>
